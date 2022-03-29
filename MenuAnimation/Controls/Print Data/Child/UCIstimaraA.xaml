@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="Astmara6.Controls.Print_Data.Child.UCIstimaraA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Astmara6.Controls.Print_Data.Child"
+             mc:Ignorable="d" 
+             d:DesignHeight="484" d:DesignWidth="800">
+    <Grid>
+        <DataGrid HorizontalAlignment="Left" Height="356" FlowDirection="RightToLeft" Margin="103,118,0,0" VerticalAlignment="Top" Width="687">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="المستوي"/>
+                <DataGridTextColumn Header="المادة"/>
+                <DataGridTextColumn Header="نظري"/>
+                <DataGridTextColumn Header="عملي"/>
+                <DataGridTextColumn Header="تمارين"/>
+                <DataGridTextColumn Header="عدد الطلبة"/>
+                <DataGridTextColumn Header="الاقسام"/>
+                <DataGridTextColumn Header="العملي"/>
+                <DataGridTextColumn Header="التمارين"/>
+                <DataGridTextColumn Header="الاشراف"/>
+                <DataGridTextColumn Header="هيئة التدريس"/>
+                <DataGridTextColumn Header="الدرجة"/>
+                <DataGridTextColumn Header="نظري"/>
+                <DataGridTextColumn Header="العملي"/>
+                <DataGridTextColumn Header="التمارين"/>
+                <DataGridTextColumn Header="الاشراف"/>
+
+
+
+
+
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button x:Name="btnExportData" Content="استخراح"  Click="GenerateExcelFile" HorizontalAlignment="Left" Margin="10,442,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</UserControl>
